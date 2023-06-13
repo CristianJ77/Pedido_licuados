@@ -1,0 +1,1 @@
+console.log('HOLA DESDE LA APP JS DE RECURSOS')

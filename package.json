@@ -1,0 +1,31 @@
+{
+  "name": "Pedido_licuados",
+  "version": "1.0.0",
+  "description": "UMG Proyecto Graduacion",
+  "main": "index.js",
+  "author": "Cristian J",
+  "scripts": {
+    "servidor": "node servidor.js",
+    "dev": "nodemon servidor.js",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.1.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.11.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "laravel-mix": "^6.0.49",
+    "nodemon": "^2.0.22",
+    "resolve-url-loader": "5.0.0",
+    "sass": "^1.63.2",
+    "sass-loader": "12.1.0"
+  }
+}
